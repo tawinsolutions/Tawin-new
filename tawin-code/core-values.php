@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <title>Core Values | TAWIN Solutions | Your Trusted Partner for Software & IT Consulting</title>
+	<meta name="description" content="TAWIN is a leading technology solutions firm dedicated to helping businesses navigate the complexities of digital transformation and achieve sustainable growth." />
+    <meta name="author" content="TAWIN Solutions" />
+  
+  
+    <meta property="og:title" content="TAWIN Solutions | Your Trusted Partner for Software & IT Consulting" />
+    <meta property="og:description" content="TAWIN is a leading technology solutions firm dedicated to helping businesses navigate the complexities of digital transformation and achieve sustainable growth." />
+    <!--favicon icon-->
+  
+   <!-- Fav Icon -->
+   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+   <!-- Fav Icon -->
+   <!-- Google Fonts -->
+   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Spartan%3A400%2C500%2C600%2C700%2C800%2C900%7CInter%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+   <!-- Google Fonts -->
+   <!-- Style -->
+   <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/owl.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/swiper.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/jquery.fancybox.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/icomoon.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/flexslider.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/scss/elements/theme-css.css' type='text/css' media='all' />
+   <link rel='stylesheet' id="creote-color-switcher-css" href='assets/css/scss/elements/color-switcher/color.css' type='text/css' media='all' />
+   <!-- Style-->
+   <!----woocommerce---->
+   <link rel='stylesheet' href='assets/css/woocommerce-layout.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/woocommerce.css' type='text/css' media='all' />
+   <!----woocommerce---->
+   
+   
+    <style>
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box }
+.wrapper {
+  background-image: linear-gradient(to bottom left, #0089CF, #123264);
+  padding: 1rem;
+  padding-bottom: 0;
+}
+ol {
+  --column-gap: 1rem;
+  --row-gap: 2rem;
+  --rocket-aspect: calc(134.13/196.24); /* svg viewbox */
+  --rocket-width: 3rem;
+  --rocket-height: calc(var(--rocket-width) / var(--rocket-aspect));
+  --flame-outer-color: #F16E39;
+  --flame-inner-color: #FED103;  
+  --number-circle-size: 2.5rem;
+  --number-circle-border-size: 0.25rem;
+  --number-line-height: 0.125rem;
+  --number-line-length: calc(var(--rocket-width) / 2 + var(--column-gap) / 2);
+  --number-line-dot-size: 0.25rem;
+  padding-bottom: 5rem;
+  list-style: none;
+  display: grid;
+  column-gap: var(--column-gap);
+  row-gap: var(--row-gap);
+  grid-template-columns: var(--rocket-width) 1fr;
+  counter-reset: liCount;
+  font-family: system-ui, sans-serif;
+  color: white;
+  overflow: hidden;
+  width: min(45rem, 100%);
+  margin-inline: auto;
+}
+@media (min-width: 30rem){
+  wrapper { padding: 2rem }
+  ol{ 
+    --column-gap: 2rem;
+    --rocket-width: 5rem;
+    grid-template-columns: 1fr var(--rocket-width) 1fr;
+  }
+  ol .rocket{ grid-column: 2 !important }
+  ol > li { 
+    grid-column: 1/-1 !important; 
+    width: calc(50% - var(--rocket-width) / 2 - var(--column-gap)) 
+  }
+  ol > li:nth-of-type(odd) { justify-self: end}
+  ol > li:nth-of-type(even) { text-align: right}
+  ol > li:nth-of-type(even):after{
+    left: unset;
+    right: calc(var(--circle-pos-x) * -1);
+    --dot_pos_multiplier: -1
+  }
+  ol > li:nth-of-type(even)::before{
+    right: unset;
+    left: calc(100% + var(--column-gap) / 2);
+    
+  }
+  
+}
+ol::after{
+  content: "";
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+ol .rocket{
+  grid-row: 1;
+  grid-column: 1;
+  position: relative;
+  isolation: isolate;
+}
+ol .rocket svg { width: var(--rocket-width); height: var(--rocket-height)}
+ol .rocket::after{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 200vh;
+  top: calc(100% - var(--rocket-height) * .2);
+  left: 25%;
+  z-index: -1;
+  background-image:
+    radial-gradient(ellipse at center top, var(--flame-inner-color) 20%,transparent 50%),
+    linear-gradient(to right, 
+      transparent 20%, 
+      var(--flame-outer-color) 40% , 
+      var(--flame-inner-color) 50%,
+      var(--flame-outer-color) 60%, 
+      transparent 80%
+    ),
+    radial-gradient(ellipse at center top, var(--flame-outer-color) 35%,transparent 65%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 
+    100% calc(var(--rocket-height) * 0.4), 
+    100%, 
+    100% calc(var(--rocket-height) * 0.4);
+}
+ol > li {
+  counter-increment: liCount;
+  grid-column: -2;
+  position: relative;
+}
+ol > li::after{
+  content: counter(liCount, decimal-leading-zero);
+  width: var(--number-circle-size);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  position: absolute;
+  --circle-pos-x: calc(var(--number-circle-size) / 2 + var(--column-gap) + var(--rocket-width) / 2);
+  left: calc(var(--circle-pos-x) * -1);
+  top: calc(50% - var(--number-circle-size) / 2);
+  background-color: var(--accent-color);
+  font-weight: 600;
+  --dot-size: calc(var(--number-circle-size) / -2 + var(--number-line-dot-size));
+  box-shadow:
+    inset 0 0 0 var(--number-circle-border-size) currentcolor,
+    inset -0.125rem 0.125rem 0.25rem var(--number-circle-border-size) rgb(0 0 0 / .25),
+    -0.125rem 0.125rem 0.25rem rgb(0 0 0 / .5),
+    calc(var(--number-line-length) * var(--dot_pos_multiplier, 1)) 0 0 var(--dot-size) currentcolor;
+}
+
+ol > li::before{
+  position: absolute;
+  content: "";
+  width: var(--number-line-length);
+  height: var(--number-line-height);
+  background-color: currentcolor;
+  right: calc(100% + var(--column-gap) / 2);
+  top: calc(50% - var(--number-line-height) / 2);
+}
+
+</style>
+</head>
+<body class="theme-creote">
+   <div id="page" class="page_wapper hfeed site">
+      
+      <!---============== wrapper_full =================-->
+      <div id="wrapper_full" class="content_all_warpper">
+         <!----mini cart----->
+        
+         <!----mini cart----->
+        
+         <!----preloader----->
+         <!----header----->
+         <div class="header_area" id="header_contents">
+            
+            <header class="header header_default style_one get_sticky_header">
+               <div class="auto-container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
+                        <div class="header_logo_box">
+                           <a href="index.php" class="logo navbar-brand">
+                              <img src="assets/images/logo.png" alt="TAWIN" class="logo_default">
+                              <img src="assets/images/logo.png" alt="TAWIN" class="logo__sticky">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-lg-10 col-md-3 col-sm-3 col-xs-3 menu_column">
+                        <div class="navbar_togglers hamburger_menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </div>
+                        <div class="header_content_collapse">
+                           <div class="header_menu_box">
+                              <div class="navigation_menu">
+                                 <ul id="myNavbar" class="navbar_nav">
+                                    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="index.php" class="dropdown-toggle nav-link">
+                                             <span>Home</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									   <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="services.php" class="dropdown-toggle nav-link">
+                                             <span>Services </span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="process.php" class="dropdown-toggle nav-link">
+                                             <span>Process</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="join.php" class="dropdown-toggle nav-link">
+                                             <span>Join</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="core-values.php" class="dropdown-toggle nav-link">
+                                             <span>Core Values</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="about.php" class="dropdown-toggle nav-link">
+                                             <span>About</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									   
+									      <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="contact.php" class="dropdown-toggle nav-link">
+                                             <span>Contact</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									  
+                                    
+                                    
+                                    
+                                    
+                                    
+                                 </ul>
+                              </div>
+                           </div>
+                          
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+             
+         </div>
+         <!----header end----->
+         <!----page header----->
+         <div class="page_header_default style_one ">
+            <div class="parallax_cover">
+               <img src="assets/images/page-header-default.jpg"  alt="bg_image" class="cover-parallax">
+            </div>
+            
+         </div>
+         <!----page header----->
+         <!--===============PAGE CONTENT==============-->
+         <!--===============PAGE CONTENT==============-->
+         <div id="content" class="site-content ">
+            <!---about--->
+            
+            <!---about end--->
+            <!---service--->
+            <section class="content-section">
+               <div class="row">
+                  <div class="col-xxl-5 col-xl-4 col-lg-4 col-md-12 pd_zero bg_op_1 text-center"
+                     style="background-image: url(assets/images/banner-four-bg.jpg);">
+
+                     
+
+                  </div>
+
+                  <div class="col-xxl-7 col-xl-8 col-lg-8 col-md-12 bg_op_1"
+                     style="background-image: url(assets/images/home-10-content-1.jpg);">
+                     <div class="row">
+                        <div class="col-xxl-1 col-xl-1 col-md-12"></div>
+                        <div class="col-xxl-9 col-xl-9 col-md-12">
+                           <div class="content-wrapper">
+                              <!--===============spacing==============-->
+                              <div class="pd_top_80"></div>
+                              <!--===============spacing==============-->
+                              <div class="title_all_box style_one light_color">
+                                 <div class="title_sections left">
+                                    
+                                    <h2>Core Values: The 5 T’s</h2>
+                                    
+                                 </div>
+                              </div>
+                              <!--===============spacing==============-->
+                              <div class="pd_bottom_20"></div>
+                              <!--===============spacing==============-->
+                              <div class="row gutter_15px">
+                                 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="icon_box_all style_seven light_color">
+                                       <div class="icon_content">
+                                          <div class="icon">
+                                             <span class="icon-service"></span>
+                                          </div>
+                                          <div class="text_box">
+                                             <h2><a href="#" target="_blank" rel="nofollow"> <span style="font-size: 25px;">T</span>rust: </a>
+                                             </h2>
+                                             <p>Building confidence through reliability and transparency in every interaction.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+								 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="icon_box_all style_seven light_color">
+                                       <div class="icon_content">
+                                          <div class="icon">
+                                             <span class="icon-service"></span>
+                                          </div>
+                                          <div class="text_box">
+                                             <h2><a href="#" target="_blank" rel="nofollow"> <span style="font-size: 25px;">A</span>ccountability: </a>
+                                             </h2>
+                                             <p>Owning outcomes, not just deliverables; we take responsibility for the final result.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+								 
+								 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="icon_box_all style_seven light_color">
+                                       <div class="icon_content">
+                                          <div class="icon">
+                                             <span class="icon-service"></span>
+                                          </div>
+                                          <div class="text_box">
+                                             <h2><a href="#" target="_blank" rel="nofollow"> <span style="font-size: 25px;">W</span>orkforce: </a>
+                                             </h2>
+                                             <p>Delivering skilled talent precisely aligned to your specific business and technical needs.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+								 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="icon_box_all style_seven light_color">
+                                       <div class="icon_content">
+                                          <div class="icon">
+                                             <span class="icon-service"></span>
+                                          </div>
+                                          <div class="text_box">
+                                             <h2><a href="#" target="_blank" rel="nofollow"> <span style="font-size: 25px;">I</span>ntegrity: </a>
+                                             </h2>
+                                             <p>Grounding our partnerships in honest commitments and ethical execution.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+								 <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="icon_box_all style_seven light_color">
+                                       <div class="icon_content">
+                                          <div class="icon">
+                                             <span class="icon-service"></span>
+                                          </div>
+                                          <div class="text_box">
+                                             <h2><a href="#" target="_blank" rel="nofollow"> <span style="font-size: 25px;">N</span>etwork: </a>
+                                             </h2>
+                                             <p>Leveraging a robust, global ecosystem of domain experts and strategic partners.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 
+                              </div>
+                              <!--===============spacing==============-->
+                              <div class="pd_bottom_30"></div>
+                              <!--===============spacing==============-->
+                              
+                              
+                           </div>
+                        </div>
+                        <div class="col-xxl-2 col-xl-2 col-md-12"></div>
+                     </div>
+
+                  </div>
+
+               </div>
+            </section>
+            <!---service end--->
+            <!---timeline---->
+            
+            <!---timeline---->
+            <!---tab---->
+               
+               <!---tab-end--->
+              <!---team--->
+              
+            <!---team-end--->
+          <!---newsteller--->
+          
+         <!---newsteller end--->
+      </div>
+      <!--===============PAGE CONTENT END==============-->
+      <!--===============PAGE CONTENT END==============-->
+   </div>
+   <!---============== wrapper_full =================-->
+   <!---==============footer start =================-->
+   <div class="footer_area" id="footer_contents">
+         <div class="footer_widgets_wrap bg_dark_2">
+            <!--===============spacing==============-->
+            <div class="pd_top_25"></div>
+            <!--===============spacing==============-->
+            <div class="container">
+               <div class="row">
+                  
+                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Headquarters</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets get_in_touch_foo light_color">
+                        <div class="get_intouch_inrfo">
+                           <div class="foo_cont_inner">
+                              <div class="top">
+                                 
+                                 <p>
+                                   97 Village Ln 2nd floor Colleyville TX 76034 <br>#Suite 201
+                                 </p>
+                              </div>
+                              <div class="social_media_v_one">
+                           <ul>
+						   
+						   <li>
+                                 <a href="https://www.linkedin.com/company/tawin-solutions-llc/" target="_blank"><span class="fa fa-linkedin" style="font-size: 12px;"></span></a>
+                              </li>
+                              
+                              
+                              
+                              
+                           </ul>
+                        </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Company</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets clearfix navigation_foo light_color style_one">
+                        <div class="navigation_foo_box">
+                           <div class="navigation_foo_inner">
+
+                              <ul class="menu">
+                                
+                                 <li><a href="about.php"> About </a></li>
+                                 <li><a href="contact.php"> Contact</a></li>
+                                 <li><a href="process.php"> Process</a></li>
+                                 <li><a href="join.php"> Join </a></li>
+                                 <li><a href="core-values.php"> Core Values</a></li>
+								
+                              </ul>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Services</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets clearfix navigation_foo light_color style_one">
+                        <div class="navigation_foo_box">
+                           <div class="navigation_foo_box">
+                              <div class="navigation_foo_inner">
+
+                                 <ul class="menu">
+                                    <li><a href="services.php">Managed IT Services</a></li>
+                                    <li><a href="services.php">Cloud Computing</a></li>
+                                    <li><a href="services.php">Cybersecurity</a></li>
+                                    <li><a href="services.php">Software Development</a></li>
+                                    <li><a href="services.php">IT Support & Helpdesk</a></li>
+                                    
+                                 </ul>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Contact</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets get_in_touch_foo light_color">
+                        <div class="get_intouch_inrfo">
+                           <div class="foo_cont_inner">
+                              
+                              <div class="bottom">
+                                 
+                                 <div class="con_content">
+                                    
+									<i class="icon-phone-call"></i>
+                                    <a href="tel:+1-385-490-2132"> +1-385-490-2132</a>
+                                 </div>
+                                 <div class="con_content">
+                                    <i class="icon-email"></i>
+                                    <a href="tel:hr@tawinsolutions.com"> hr@tawinsolutions.com</a>
+                                 </div>
+								 <div class="con_content">
+                                   <i class="fa fa-envelope-square"></i>
+                                    <a href="tel:partnerships@tawinsolutions.com"> partnerships@tawinsolutions.com</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--===============spacing==============-->
+            <div class="pd_bottom_15"></div>
+            <!--===============spacing==============-->
+         </div>
+         <div class="creote-footer-copyright bg_dark_3">
+
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <!--===============spacing==============-->
+                     <div class="pd_top_10"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_copy_content color_white">
+                        © 2024 TAWIN SOLUTIONS. All rights reserved
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_10"></div>
+                     <!--===============spacing==============-->
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 text-md-end">
+                     <!--===============spacing==============-->
+                     <div class="pd_top_10"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_copy_content_right">
+                        <a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=ytjfubank1533s4g413chm6ycaw69gc7" border="0" title="page counter" alt="page counter"></a>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_10"></div>
+                     <!--===============spacing==============-->
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   <!---==============footer end =================-->
+   <!---==============mobile menu =================-->
+   <div class="crt_mobile_menu">
+         <div class="menu-backdrop"></div>
+         <nav class="menu-box">
+            <div class="close-btn"><i class="icon-close"></i></div>
+            
+            <div class="menu-outer">
+               <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
+         </nav>
+      </div>
+   <!---==============mobile menu end =================-->
+   <!---==============search popup =================-->
+   
+   <!---==============search popup end =================-->
+   <!---==============modal popup =================-->
+   
+   <!---==============modal popup end=================-->
+   <!---==============cart=================-->
+   
+   <!---==============cart=================-->
+  
+</div>
+<!-- Back to top with progress indicator-->
+<div class="prgoress_indicator">
+   <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+   </svg>
+</div>
+   <!---========================== javascript ==========================-->
+   <script type='text/javascript' src='assets/js/jquery-3.6.0.min.js'></script>
+   <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.fancybox.js'></script>
+   <script type='text/javascript' src='assets/js/jQuery.style.switcher.min.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.flexslider-min.js'></script>
+   <script type='text/javascript' src='assets/js/color-scheme.js'></script>
+   <script type='text/javascript' src='assets/js/owl.js'></script>
+   <script type='text/javascript' src='assets/js/swiper.min.js'></script>
+   <script type='text/javascript' src='assets/js/isotope.min.js'></script>
+   <script type='text/javascript' src='assets/js/countdown.js'></script>
+   <script type='text/javascript' src='assets/js/simpleParallax.min.js'></script>
+   <script type='text/javascript' src='assets/js/appear.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.countTo.js'></script>
+   <script type='text/javascript' src='assets/js/sharer.js'></script>
+   <script type='text/javascript' src='assets/js/validation.js'></script>
+   <!-- map script -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+   <script src="assets/js/gmaps.js"></script>
+   <script src="assets/js/map-helper.js"></script>
+   <!-- main-js -->
+   <script type='text/javascript' src='assets/js/creote-extension.js'></script>
+   <!---========================== javascript ==========================-->
+</body>
+</html>

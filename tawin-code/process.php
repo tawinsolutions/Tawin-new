@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <title>Process | TAWIN Solutions | Your Trusted Partner for Software & IT Consulting</title>
+	<meta name="description" content="TAWIN is a leading technology solutions firm dedicated to helping businesses navigate the complexities of digital transformation and achieve sustainable growth." />
+    <meta name="author" content="TAWIN Solutions" />
+  
+  
+    <meta property="og:title" content="TAWIN Solutions | Your Trusted Partner for Software & IT Consulting" />
+    <meta property="og:description" content="TAWIN is a leading technology solutions firm dedicated to helping businesses navigate the complexities of digital transformation and achieve sustainable growth." />
+    <!--favicon icon-->
+  
+   <!-- Fav Icon -->
+   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+   <!-- Fav Icon -->
+   <!-- Google Fonts -->
+   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Spartan%3A400%2C500%2C600%2C700%2C800%2C900%7CInter%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+   <!-- Google Fonts -->
+   <!-- Style -->
+   <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/owl.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/swiper.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/jquery.fancybox.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/icomoon.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/flexslider.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/scss/elements/theme-css.css' type='text/css' media='all' />
+   <link rel='stylesheet' id="creote-color-switcher-css" href='assets/css/scss/elements/color-switcher/color.css' type='text/css' media='all' />
+   <!-- Style-->
+   <!----woocommerce---->
+   <link rel='stylesheet' href='assets/css/woocommerce-layout.css' type='text/css' media='all' />
+   <link rel='stylesheet' href='assets/css/woocommerce.css' type='text/css' media='all' />
+   <!----woocommerce---->
+   
+    <link rel='stylesheet' href='assets/css/style2.css' type='text/css' media='all' />
+   
+   
+</head>
+<body class="theme-creote">
+   <div id="page" class="page_wapper hfeed site">
+      
+      <!---============== wrapper_full =================-->
+      <div id="wrapper_full" class="content_all_warpper">
+         <!----mini cart----->
+        
+         <!----mini cart----->
+        
+         <!----preloader----->
+         <!----header----->
+         <div class="header_area" id="header_contents">
+            
+            <header class="header header_default style_one get_sticky_header">
+               <div class="auto-container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
+                        <div class="header_logo_box">
+                           <a href="index.php" class="logo navbar-brand">
+                              <img src="assets/images/logo.png" alt="TAWIN" class="logo_default">
+                              <img src="assets/images/logo.png" alt="TAWIN" class="logo__sticky">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-lg-10 col-md-3 col-sm-3 col-xs-3 menu_column">
+                        <div class="navbar_togglers hamburger_menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </div>
+                        <div class="header_content_collapse">
+                           <div class="header_menu_box">
+                              <div class="navigation_menu">
+                                 <ul id="myNavbar" class="navbar_nav">
+                                    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="index.php" class="dropdown-toggle nav-link">
+                                             <span>Home</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									   <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="services.php" class="dropdown-toggle nav-link">
+                                             <span>Services </span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="process.php" class="dropdown-toggle nav-link">
+                                             <span>Process</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="join.php" class="dropdown-toggle nav-link">
+                                             <span>Join</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="core-values.php" class="dropdown-toggle nav-link">
+                                             <span>Core Values</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									    <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="about.php" class="dropdown-toggle nav-link">
+                                             <span>About</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									   
+									      <li class="menu-item  menu-item-has-children nav-item">
+                                          <a href="contact.php" class="dropdown-toggle nav-link">
+                                             <span>Contact</span>
+                                             
+                                          </a>
+                                          
+                                       </li>
+									   
+									  
+                                    
+                                    
+                                    
+                                    
+                                    
+                                 </ul>
+                              </div>
+                           </div>
+                          
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+             
+         </div>
+         <!----header end----->
+         <!----page header----->
+         <div class="page_header_default style_one ">
+            <div class="parallax_cover">
+               <img src="assets/images/page-header-default.jpg"  alt="bg_image" class="cover-parallax">
+            </div>
+            
+         </div>
+         <!----page header----->
+         <!--===============PAGE CONTENT==============-->
+         <!--===============PAGE CONTENT==============-->
+         <div id="content" class="site-content ">
+		 
+		 
+		 <section class="about-section">
+               <!--===============spacing==============-->
+               <div class="pd_top_50"></div>
+               <!--===============spacing==============-->
+               <div class="container">
+                  <div class="row">
+				  <div class="row">
+                     <div class="col-lg-1"></div>
+                     <div class="col-lg-10">
+                        <div class="title_all_box style_one text-center dark_color">
+                           <div class="title_sections">
+                              
+                              <h2 class="title">The Engagement & Delivery Process</h2>
+                             
+                           </div>
+                           <!--===============spacing==============-->
+                           <div class="pd_top_20"></div>
+                           <!--===============spacing==============-->
+                        </div>
+                     </div>
+                     <div class="col-lg-1"></div>
+                  </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 mb-sm-5 mb-md-5 mb-lg-5 mb-xl-0">
+                        <div class="slide-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="assets/images/r1.jpg" class="card-img" alt="img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Understand Requirements</h2>
+            <p class="description">
+We pxerform a deep-dive analysis of your business and technical needs to ensure total alignment from day one</p>
+
+            
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="assets/images/r2.jpg" class="card-img" alt="img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Match Consultant</h2>
+            <p class="description">
+We identify the ideal expert from our network, selecting for specific domain knowledge and technical proficiency.</p>
+
+           
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+               <img src="assets/images/r3.jpg" class="card-img" alt="img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Quick Onboarding</h2>
+            <p class="description">
+Our streamlined integration process ensures consultants are active and delivering value within your team.</p>
+
+            
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+            <img src="assets/images/r4.jpg" class="card-img" alt="img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Ongoing Support </h2>
+            <p class="description">
+EContinuous oversight and management to maintain high standards and ensure ethical execution throughout the lifecycle.</p>
+
+            
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="assets/images/r5.jpg" class="card-img" alt="img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Performance Feedback</h2>
+            <p class="description">
+Regular performance reviews and feedback loops to ensure outcomes consistently exceed
+expectations.</p>
+
+            
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_10"></div>
+                        <!--===============spacing==============-->
+                        
+                        
+                     </div>
+                     
+                  </div>
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_50"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!---about--->
+            
+            <!---about end--->
+            <!---service--->
+            
+            <!---service end--->
+            <!---timeline---->
+            
+            <!---timeline---->
+			
+			<section class="tabs_all_box tabs_all_box_start type_two">
+                    <!--===============spacing==============-->
+                    <div class="pd_top_50"></div>
+                    <!--===============spacing==============-->
+                    <div class="default-container">
+                        <div class="row">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8">
+                        <div class="title_all_box style_one text-center dark_color">
+                           <div class="title_sections">
+                              <div class="before_title">Why TAWIN?</div>
+                             <h2 class="title">Your Trusted Partner for Software & IT Consulting</h2>
+                              <p>Empowering organizations with domain-aware IT analysts and consultants to drive technology excellence and measurable business results.</p>
+                           </div>
+                           <!--===============spacing==============-->
+                           <div class="pd_top_20"></div>
+                           <!--===============spacing==============-->
+                        </div>
+                     </div>
+                     <div class="col-lg-2"></div>
+                  </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_top_10"></div>
+                        <!--===============spacing==============-->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
+                               <div class="tab_over_all_box">
+                              <div class="tabs_header clearfix">
+                                 <ul class="showcase_tabs_btns nav-pills nav clearfix">
+                                    <li class="nav-item">
+                                       <a class="s_tab_btn nav-link active" data-tab="#twotabtabone">Client Challenges</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="s_tab_btn nav-link" data-tab="#twotabtabtwo">Tawin’s Solutions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a class="s_tab_btn nav-link" data-tab="#twotabtabtthree">Strategic Impact</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="s_tab_wrapper">
+                                 <div class="s_tabs_content">
+                                    <div class="s_tab fade active-tab show" id="twotabtabone">
+                                       <div class="tab_content one">
+                                          <div class="row">
+                                             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5 mb-lg-0 mb-xl-0">
+                                                <div class="image_boxes style_five">
+                           <div class="image_box one">
+                              <img src="assets/images/w1.jpg" class="img-fluid" alt="tawin">
+                              
+                           </div>
+                         
+                        </div>
+                                             </div>
+                                             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="content_bx">
+                                                   
+                                                   <p><strong>Skill Gaps:</strong> Difficulty finding right talent quickly; projects delayed due to expertise shortages.</p>
+												   <p><strong>High Costs::</strong>  Massive financial overhead and risk associated with permanent full-time hiring.</p>
+												   <p><strong>Vendor Reliability: </strong> Dealing with vendors who overpromise, underdeliver, or lack domain context.</p>
+                                                   
+                                                  
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="s_tab fade" id="twotabtabtwo">
+                                       <div class="tab_content one">
+                                          <div class="row">
+                                             <div class="col-lg-6 col-md-12 col-sm-12">
+                                                <div class="image_boxes style_five">
+                           <div class="image_box one">
+                              <img src="assets/images/w2.jpg" class="img-fluid" alt="tawin">
+                              
+                           </div>
+                         
+                        </div>
+                                             </div>
+                                             <div class="col-lg-6 col-md-12 col-sm-12">
+                                                <div class="content_bx">
+                                                   
+                                                   <p><strong>Quick Integration:</strong> Consultants integrate rapidly into your teams to bridge gaps and maintain momentum.</p>
+												   <p><strong>Scalability:</strong> Flexible scaling of expert teams up or down based on specific project lifecycle needs.</p>
+												    <p><strong>Measurable Outcomes:</strong> A focus on understanding requirements deeply and delivering proven results.</p>
+                                                   
+                                                  
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="s_tab fade" id="twotabtabtthree">
+                                       <div class="tab_content one">
+                                          <div class="row">
+                                             <div class="col-lg-6 col-md-12 col-sm-12">
+                                                <div class="image_boxes style_five">
+                           <div class="image_box one">
+                              <img src="assets/images/w3.jpg" class="img-fluid" alt="tawin">
+                              
+                           </div>
+                         
+                        </div>
+                                             </div>
+                                             <div class="col-lg-6 col-md-12 col-sm-12">
+                                                <div class="content_bx">
+                                                   
+                                                   <p><strong>Speed to Market:</strong> Reduced lead times for critical project milestones and technology deployments.</p>
+												   <p><strong>Fiscal Optimization:</strong>Significant savings on overhead while maintaining high-tier technical output.</p>
+												   <p><strong>Execution Integrity:</strong> High-fidelity delivery that aligns perfectly with original business requirements.</p>
+                                                   
+                                                  
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                                <!--===============spacing==============-->
+                        <div class="pd_bottom_20"></div>
+                        <!--===============spacing==============-->
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_50"></div>
+                    <!--===============spacing==============-->
+                </section>
+            <!---tab---->
+               
+              <section class="tabs_all_box tabs_all_box_start type_two">
+			  
+                           
+                        </section>
+              
+            <!---team-end--->
+          <!---newsteller--->
+          
+         <!---newsteller end--->
+      </div>
+      <!--===============PAGE CONTENT END==============-->
+      <!--===============PAGE CONTENT END==============-->
+   </div>
+   <!---============== wrapper_full =================-->
+   <!---==============footer start =================-->
+   <div class="footer_area" id="footer_contents">
+         <div class="footer_widgets_wrap bg_dark_2">
+            <!--===============spacing==============-->
+            <div class="pd_top_25"></div>
+            <!--===============spacing==============-->
+            <div class="container">
+               <div class="row">
+                  
+                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Headquarters</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets get_in_touch_foo light_color">
+                        <div class="get_intouch_inrfo">
+                           <div class="foo_cont_inner">
+                              <div class="top">
+                                 
+                                 <p>
+                                   97 Village Ln 2nd floor Colleyville TX 76034 <br>#Suite 201
+                                 </p>
+                              </div>
+                              <div class="social_media_v_one">
+                           <ul>
+						   
+						   <li>
+                                 <a href="https://www.linkedin.com/company/tawin-solutions-llc/" target="_blank"><span class="fa fa-linkedin" style="font-size: 12px;"></span></a>
+                              </li>
+                              
+                              
+                              
+                              
+                           </ul>
+                        </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Company</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets clearfix navigation_foo light_color style_one">
+                        <div class="navigation_foo_box">
+                           <div class="navigation_foo_inner">
+
+                              <ul class="menu">
+                                
+                                 <li><a href="about.php"> About </a></li>
+                                 <li><a href="contact.php"> Contact</a></li>
+                                 <li><a href="process.php"> Process</a></li>
+                                 <li><a href="join.php"> Join </a></li>
+                                 <li><a href="core-values.php"> Core Values</a></li>
+								
+                              </ul>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Services</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets clearfix navigation_foo light_color style_one">
+                        <div class="navigation_foo_box">
+                           <div class="navigation_foo_box">
+                              <div class="navigation_foo_inner">
+
+                                 <ul class="menu">
+                                    <li><a href="services.php">Managed IT Services</a></li>
+                                    <li><a href="services.php">Cloud Computing</a></li>
+                                    <li><a href="services.php">Cybersecurity</a></li>
+                                    <li><a href="services.php">Software Development</a></li>
+                                    <li><a href="services.php">IT Support & Helpdesk</a></li>
+                                    
+                                 </ul>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                     <div class="footer_widgets wid_tit style_one">
+                        <div class="fo_wid_title">
+                           <h2>Contact</h2>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_25"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_widgets get_in_touch_foo light_color">
+                        <div class="get_intouch_inrfo">
+                           <div class="foo_cont_inner">
+                              
+                              <div class="bottom">
+                                 
+                                 <div class="con_content">
+                                    
+									<i class="icon-phone-call"></i>
+                                    <a href="tel:+1-385-490-2132"> +1-385-490-2132</a>
+                                 </div>
+                                 <div class="con_content">
+                                    <i class="icon-email"></i>
+                                    <a href="tel:hr@tawinsolutions.com"> hr@tawinsolutions.com</a>
+                                 </div>
+								 <div class="con_content">
+                                   <i class="fa fa-envelope-square"></i>
+                                    <a href="tel:partnerships@tawinsolutions.com"> partnerships@tawinsolutions.com</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--===============spacing==============-->
+            <div class="pd_bottom_15"></div>
+            <!--===============spacing==============-->
+         </div>
+         <div class="creote-footer-copyright bg_dark_3">
+
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <!--===============spacing==============-->
+                     <div class="pd_top_10"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_copy_content color_white">
+                        © 2024 TAWIN SOLUTIONS. All rights reserved
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_10"></div>
+                     <!--===============spacing==============-->
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 text-md-end">
+                     <!--===============spacing==============-->
+                     <div class="pd_top_10"></div>
+                     <!--===============spacing==============-->
+                     <div class="footer_copy_content_right">
+                        <a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=ytjfubank1533s4g413chm6ycaw69gc7" border="0" title="page counter" alt="page counter"></a>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_10"></div>
+                     <!--===============spacing==============-->
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   <!---==============footer end =================-->
+   <!---==============mobile menu =================-->
+   <div class="crt_mobile_menu">
+         <div class="menu-backdrop"></div>
+         <nav class="menu-box">
+            <div class="close-btn"><i class="icon-close"></i></div>
+            
+            <div class="menu-outer">
+               <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </div>
+         </nav>
+      </div>
+   <!---==============mobile menu end =================-->
+   <!---==============search popup =================-->
+   
+   <!---==============search popup end =================-->
+   <!---==============modal popup =================-->
+   
+   <!---==============modal popup end=================-->
+   <!---==============cart=================-->
+   
+   <!---==============cart=================-->
+  
+</div>
+<!-- Back to top with progress indicator-->
+<div class="prgoress_indicator">
+   <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+   </svg>
+</div>
+   <!---========================== javascript ==========================-->
+   <script type='text/javascript' src='assets/js/jquery-3.6.0.min.js'></script>
+   <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.fancybox.js'></script>
+   <script type='text/javascript' src='assets/js/jQuery.style.switcher.min.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.flexslider-min.js'></script>
+   <script type='text/javascript' src='assets/js/color-scheme.js'></script>
+   <script type='text/javascript' src='assets/js/owl.js'></script>
+   <script type='text/javascript' src='assets/js/swiper.min.js'></script>
+   <script type='text/javascript' src='assets/js/isotope.min.js'></script>
+   <script type='text/javascript' src='assets/js/countdown.js'></script>
+   <script type='text/javascript' src='assets/js/simpleParallax.min.js'></script>
+   <script type='text/javascript' src='assets/js/appear.js'></script>
+   <script type='text/javascript' src='assets/js/jquery.countTo.js'></script>
+   <script type='text/javascript' src='assets/js/sharer.js'></script>
+   <script type='text/javascript' src='assets/js/validation.js'></script>
+   <!-- map script -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+   <script src="assets/js/gmaps.js"></script>
+   <script src="assets/js/map-helper.js"></script>
+   <!-- main-js -->
+   <script type='text/javascript' src='assets/js/creote-extension.js'></script>
+   <!---========================== javascript ==========================-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type='text/javascript' src='assets/js/script.js'></script>
+</body>
+</html>
